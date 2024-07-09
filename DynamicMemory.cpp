@@ -6,7 +6,7 @@ int main()
     int n;
     int *ptr;
 
-    cout<<"enter the number of values :"<<endl;
+    cout<<"enter the number of values :";
     cin>>n;
 
     ptr = new int[n];
@@ -16,10 +16,10 @@ int main()
         cin>>ptr[i];
     }
 
-    cout<<"the values are : "<<endl;
+    cout<<"the values are : ";
     for(int i = 0; i<n;i++)
     {
-        cout<<ptr[i]<<endl;
+        cout<<ptr[i]<<" ";
     }
     return 0;
 }
