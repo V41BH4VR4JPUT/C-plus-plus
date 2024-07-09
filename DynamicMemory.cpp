@@ -21,5 +21,11 @@ int main()
     {
         cout<<ptr[i]<<" ";
     }
+    cout<<endl;
+    delete[] ptr;
+     for(int i = 0; i<n;i++)
+    {
+        cout<<ptr[i]<<" ";
+    }
     return 0;
 }
