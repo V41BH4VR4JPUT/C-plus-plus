@@ -1,36 +1,44 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Y;
-class X{
+class X
+{
     int data;
-    public:
-       void Setvalue(int val){
+
+public:
+    void Setvalue(int val)
+    {
         data = val;
-       }
-       friend void add(X,Y);
+    }
+    friend void add(X, Y);
 };
 
-class Y{
+class Y
+{
     int num;
-    public: 
-       void Setvalue(int val){
+
+public:
+    void Setvalue(int val)
+    {
         num = val;
-       }
-       friend void add(X,Y);
+    }
+    friend void add(X, Y);
 };
 
-void add (X o1 , Y o2){
-    cout<<"THE SUM OF BOTH VALUES IS : "<<o1.data + o2.num;
+void add(X o1, Y o2)
+{
+    cout << "THE SUM OF BOTH VALUES IS : " << o1.data + o2.num;
 }
-int main(){
+int main()
+{
     X a1;
     a1.Setvalue(10);
 
     Y b1;
     b1.Setvalue(20);
 
-    add(a1,b1);
-    
+    add(a1, b1);
+
     return 0;
 }
