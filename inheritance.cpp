@@ -14,7 +14,7 @@ public:
     void Display();
 };
 
-void SimpleCalculator :: Set_data(int num1, int num2)
+void SimpleCalculator ::Set_data(int num1, int num2)
 {
     a = num1;
     b = num2;
