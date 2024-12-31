@@ -1,4 +1,3 @@
-# V41BH4VR4JPUT-C-plus-plus
 
 This repository serves as a comprehensive collection of C++ programs, examples, and concepts aimed at showcasing the versatility and depth of the C++ programming language. It covers a wide range of topics, from fundamental constructs to advanced concepts, and demonstrates their practical applications through various programs.
 
